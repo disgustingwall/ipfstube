@@ -26,7 +26,7 @@
 	var sources = [
 		'ipfs:', // Browser handler
 		'http://127.0.0.1:8080', // User's own IPFS daemon
-		'', // Us
+		'', // Us; this generates "/ipfs/<hash>", which is automatically interpreted as "domain.tld/ipfs/<hash>"
 		'https://gateway.ipfs.io', // Official gateway
 		'https://ipfs.pics' // Is this rude?
 	];
