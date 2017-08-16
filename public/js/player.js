@@ -17,11 +17,11 @@
 	}
 	
 	//Set the hash of the video to "v" in the GET variables
-	var hash = $_GET['v'];
-	// hash = 'QmU1GSqu4w29Pt7EEM57Lhte8Lce6e7kuhRHo6rSNb2UaC';
+	var videoHash = $_GET['videoHash'];
+	// videoHash = 'QmU1GSqu4w29Pt7EEM57Lhte8Lce6e7kuhRHo6rSNb2UaC';
 	var playerHolder = $('#player__holder');
 	var player = $('#player');
-	var path = hashToPath(hash);
+	var path = hashToPath(videoHash);
 	var sources = [
 		'ipfs:', // Browser handler
 		'http://127.0.0.1:8080', // User's own IPFS daemon
@@ -50,14 +50,14 @@
 		}
 	}
 
-	function hashToPath(hash) {
+	function hashToPath(videoHash) {
 		if(
-			hash.indexOf('/ipfs/') === -1 &&
-			hash.indexOf('/ipns/') === -1
+			videoHash.indexOf('/ipfs/') === -1 &&
+			videoHash.indexOf('/ipns/') === -1
 		) {
-			return '/ipfs/' + hash;
+			return '/ipfs/' + videoHash;
 		} else {
-			return hash;
+			return videoHash;
 		}
 	}
 })();

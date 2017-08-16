@@ -16,7 +16,7 @@
 	dropzone.on('success', function(file, response) {
 		console.log('upload success', response);
 		setTimeout(function() {
-			location.assign('./player.html?v=' + response.Hash);
+			location.assign('./player.html?videoHash=' + response.Hash);
 		}, 500);
 	});
 })();

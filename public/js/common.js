@@ -13,7 +13,7 @@
 	function navigateFilehash() {
 		var hash = input.val();
 		if(hash) {
-			location.assign('./player.html?v=' + hash);
+			location.assign('./player.html?videoHash=' + hash);
 		}
 	}
 })();
