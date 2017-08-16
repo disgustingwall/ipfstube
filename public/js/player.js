@@ -16,7 +16,7 @@
 		}
 	}
 	
-	//Set the hash of the video to "v" in the GET variables
+	//Set the hash of the video to "videoHash" in the GET variables
 	var videoHash = $_GET['videoHash'];
 	// videoHash = 'QmU1GSqu4w29Pt7EEM57Lhte8Lce6e7kuhRHo6rSNb2UaC';
 	var playerHolder = $('#player__holder');
