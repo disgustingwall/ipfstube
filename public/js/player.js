@@ -1,5 +1,6 @@
 (function() {
 	//Get the GET variables out of the URL
+	//Credit to "gion_13" on https://stackoverflow.com/questions/12049620/how-to-get-get-variables-value-in-javascript
 	var $_GET = {};
 	if(document.location.toString().indexOf('?') !== -1) {
 		var query = document.location
