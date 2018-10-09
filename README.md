@@ -2,6 +2,6 @@
 
 Watch videos stored on IPFS
 
-Live at [https://aoeu.neocities.org/IPFStube/](https://aoeu.neocities.org/IPFStube/)
+Live at [ipfstube.erindachtler.me](http://ipfstube.erindachtler.me)
 
-[Demo video](https://aoeu.neocities.org/IPFStube/player.html?videoHash=QmU1GSqu4w29Pt7EEM57Lhte8Lce6e7kuhRHo6rSNb2UaC)
+[Demo video](https://ipfstube.erindachtler.me/v/QmU1GSqu4w29Pt7EEM57Lhte8Lce6e7kuhRHo6rSNb2UaC)
